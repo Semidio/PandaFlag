@@ -6,20 +6,20 @@ export const parseLink = link => {
 
 export const parseCountryCode = language => {
     return {
-        'japanese': 'JP',
-        'english': 'GB',
-        'chinese': 'CN',
-        'dutch': 'NL',
-        'french': 'FR',
-        'german': 'DE',
-        'hungarian': 'HU',
-        'italian': 'IT',
-        'korean': 'KR',
-        'polish': 'PL',
-        'portuguese': 'PT',
-        'russian': 'RU',
-        'spanish': 'ES',
-        'thai': 'TH',
-        'vietnamese': 'VN'
+        'japanese': 'jp',
+        'english': 'gb',
+        'chinese': 'cn',
+        'dutch': 'nl',
+        'french': 'fr',
+        'german': 'de',
+        'hungarian': 'hu',
+        'italian': 'it',
+        'korean': 'kr',
+        'polish': 'pl',
+        'portuguese': 'pt',
+        'russian': 'ru',
+        'spanish': 'es',
+        'thai': 'th',
+        'vietnamese': 'vn'
     }[language];
 }

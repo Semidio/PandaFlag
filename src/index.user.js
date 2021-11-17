@@ -30,7 +30,7 @@ import { parseCountryCode, parseLink } from './utils';
         const language = tags[i].length > 0 ? tags[i][0].substring(9) : "japanese";
         const countryCode = parseCountryCode(language);
         if (!countryCode) continue;
-        const link = `https://www.countryflags.io/${parseCountryCode(language)}/flat/16.png`;
+        const link = `https://flagcdn.com/16x12/${parseCountryCode(language)}.png`;
         if (link) {
             const flagImage = document.createElement("img");
             flagImage.setAttribute("src", link);
